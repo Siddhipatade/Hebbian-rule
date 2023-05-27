@@ -52,3 +52,15 @@ For the second iteration, the final weight of the first one will be used and so 
  w(new) = [ 1 1 -3]T + [ 1 1 1 ]T . [ 1 ] = [ 2 2 -2 ]T
 	
  So, the final weight matrix is [ 2 2 -2 ]T
+
+![image](https://github.com/Siddhipatade/Hebbian-rule/assets/91780318/20c3fb04-4126-4a38-a609-167ad054a7f8)
+
+Decision Boundary : 
+	
+	2x1 + 2x2 – 2b = y
+	Replacing y with 0,      2x1 + 2x2 – 2b = 0
+	Since bias, b = 1, so    2x1 + 2x2 – 2(1) = 0
+	2( x1 + x2 ) = 2
+	The final equation,        x2 = -x1 + 1
+
+![image](https://github.com/Siddhipatade/Hebbian-rule/assets/91780318/ea45f965-1091-4ced-bf6d-f5db411a2eb1)
