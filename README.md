@@ -1,17 +1,17 @@
 # Hebbian Learning Rule 
-- Also known as Hebb Learning Rule, was proposed by Donald O Hebb.
-- One of the first and also easiest learning rules in the neural network. 
+- Also known as 'Hebb Learning Rule', was proposed by 'Donald O Hebb'.
+- One of the 'first' and also easiest learning rules in the neural network. 
 - It is a single layer neural network, i.e. it has one input layer and one output layer. 
 - The input layer can have many units, say n. The output layer only has one unit. 
 - Hebbian rule works by updating the weights between neurons in the neural network for each training sample.
 
 ## Hebbian Learning Rule Algorithm
 
-- Set all weights to zero, wi = 0 for i=1 to n, and bias to zero.
-- For each input vector, S(input vector) : t(target output pair), repeat steps 3-5.
-- Set activations for input units with the input vector Xi = Si for i = 1 to n.
-- Set the corresponding output value to the output neuron, i.e. y = t.
-- Update weight and bias by applying Hebb rule for all i = 1 to n:
+- Set all weights to zero, `wi = 0` for `i=1 to n`, and `bias to zero`.
+- For each `input vector`, `S(input vector)` : `t(target output pair)`, repeat steps 3-5.
+- Set activations for input units with the input vector `Xi = Si` for `i = 1 to n`.
+- Set the corresponding output value to the output neuron, i.e. `y = t`.
+- Update weight and bias by applying Hebb rule for all `i = 1 to n`:
 
 ![image](https://github.com/Siddhipatade/Hebbian-rule/assets/91780318/499a6d53-cea5-4048-84b4-708d81e1a567)
 
