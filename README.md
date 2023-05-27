@@ -55,7 +55,7 @@ For the second iteration, the final weight of the first one will be used and so 
 
 ![image](https://github.com/Siddhipatade/Hebbian-rule/assets/91780318/20c3fb04-4126-4a38-a609-167ad054a7f8)
 
-####`Decision Boundary` : 
+#### `Decision Boundary` : 
 	
 	2x1 + 2x2 – 2b = y
 	Replacing y with 0,      2x1 + 2x2 – 2b = 0
